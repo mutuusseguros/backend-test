@@ -39,7 +39,7 @@ Aqui vão alguns requisitos:
 
 Devem ser utilizadas as seguintes tecnologias:
 
-* Qualquer framework Java/Kotlin
+* Qualquer framework Java/Kotlin, mas não se esqueça de justificar a adoção dos frameworks do projeto, no README da entrega
 * Testes (os que julgar necessário) 
 * Tecnologia ou padrões complementares serão aceitos, mas deverão ser devidamente justificados no README do projeto
 * Caso opte por utilizar alguma biblioteca, as mesmas devem ser justificadas
@@ -52,7 +52,7 @@ Devem ser utilizadas as seguintes tecnologias:
 * Faça um breve comentário explicando o ciclo de vida da sua solução, e justifique quando e como utilizá-los adequadamente
 * Liste 3 pontos de atenção que você identifique com relação a performance da aplicação e os justifique
 * Você deve enviar um arquivo ZIP para tecnologia@mutuus.net, ou compartilhar seu código em um repositório privado
-* Não há prazo mínimo para entrega do seu resultado
+* Você tem 10 dias para entrega do seu resultado
 
 ### Nossa avaliação
 
