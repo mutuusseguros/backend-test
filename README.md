@@ -24,15 +24,18 @@ Logo, se você estiver disposto a trabalhar com:
 
 ## O Desafio
 
-Você precisa acessar a api da Marvel, salvar os dados acessados e expor uma API com esses dados paginados. 
-
-API: [https://developer.marvel.com](https://developer.marvel.com)
+Você vai usar a api [Pokémon](https://pokeapi.co/). 
 
 Aqui vão alguns requisitos:
 
-- Defina os principais requisitos de negócio e técnicos e os descreva-os em alto nível
-- Deve ter no minimo dois microservices, um para expor a API e outro para se comunicar com a Marvel
-- Os dados que forem baixados da Marvel não devem ser baixados novamente, pode usar cache ou um banco de dados
+- Todas as respostas devem ser em formato JSON
+- Ter ednpoint para baixar a lista de Pokémons de forma paginada
+- Ter endpoint para baixar os detalhes do Pokémon por id. Nesses detalhes deve conter as infos básicas das evoluções passadas e futuras. Por exemplo se receber id do Ivysaur a aplicação de alguma forma deve retornar as informações básicas do Bulbasaur e Venusaur.
+- Os dados que forem baixados da api Pokémon não devem ser baixados novamente, pode usar cache, um banco de dados ou semelhante
+- Cada item da lista paginada deve conter o link para os detalhes do Pokémon (hateoas)
+- No readme descreva as principais caracteristicas que sua aplicação possui
+- Deve ter no minimo dois microservices, um para expor a API e outro para se comunicar com a api Pokémon
+
 - Testes unitários
 
 ### Tecnologias/Padrões
@@ -41,18 +44,20 @@ Devem ser utilizadas as seguintes tecnologias:
 
 * Qualquer framework Java/Kotlin, mas não se esqueça de justificar a adoção dos frameworks do projeto, no README da entrega
 * Testes (os que julgar necessário) 
-* Tecnologia ou padrões complementares serão aceitos, mas deverão ser devidamente justificados no README do projeto
-* Caso opte por utilizar alguma biblioteca, as mesmas devem ser justificadas
+* Qualquer tecnologia ou padrões complementares serão aceitos, mas deverão ser devidamente justificados no README do projeto
+* Caso opte por utilizar alguma biblioteca, a mesma devem ser justificadas no README
 
 ### Como deve ser a entrega
 
 * Seja criativo e nos impressione com a arquitetura da sua aplicação
 * Faça suas escolhas e deixe-nos entender seu raciocinio
-* No arquivo README do projeto além de detalhar os requisitos, não deixe de explicar o funcionamento e as principais soluções adotadas justificando-as
+* No arquivo README do projeto além de detalhar as caracteristicas, não deixe de explicar o funcionamento e as principais soluções adotadas justificando-as
 * Faça um breve comentário explicando o ciclo de vida da sua solução, e justifique quando e como utilizá-los adequadamente
 * Liste 3 pontos de atenção que você identifique com relação a performance da aplicação e os justifique
-* Você deve enviar um arquivo ZIP para tecnologia@mutuus.net, ou compartilhar seu código em um repositório privado
-* Você tem 10 dias para entrega do seu resultado
+* Publique o seu código em um repositório privado e adicione o @dpnascimento e o @felipeespitalher
+* Descreva quanto tempo você dedicou para realizar o teste
+* Responda a thread de email do processo seletivo informando o link do repositorio
+* O prazo máximo para envio do teste é de uma semana
 
 ### Nossa avaliação
 
@@ -63,4 +68,5 @@ Destacamos abaixo alguns critérios que consideramos como fundamentais para um b
 * Organização e manutenção do código
 * Documentação de código
 * Documentação do projeto (readme)
-* Certamente você saíra na frente se nos entregar pelo menos alguns testes automatizados
+* Uso do GIT
+* Testes
