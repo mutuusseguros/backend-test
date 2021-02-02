@@ -42,7 +42,7 @@ Aqui vão alguns requisitos:
 
 Devem ser utilizadas as seguintes tecnologias:
 
-* Qualquer framework Java/Kotlin, mas não se esqueça de justificar a adoção dos frameworks do projeto, no README da entrega
+* Qualquer framework Java, mas não se esqueça de justificar a adoção dos frameworks do projeto, no README da entrega
 * Testes (os que julgar necessário) 
 * Qualquer tecnologia ou padrões complementares serão aceitos, mas deverão ser devidamente justificados no README do projeto
 * Caso opte por utilizar alguma biblioteca, a mesma devem ser justificadas no README
